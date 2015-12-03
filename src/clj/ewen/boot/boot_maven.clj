@@ -5,6 +5,7 @@
             [boot.core :as core :refer [deftask get-env]]
             [boot.util :as util]
             [boot.pod :as pod])
+  (:refer-clojure :exclude [name])
   (:import (java.util Properties)))
 
 (xml/decelems
